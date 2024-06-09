@@ -1,0 +1,44 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/research-publisher",
+	"version": "0.1.0",
+	"title": "Research Publisher",
+	"category": "widgets",
+	"icon": "book",
+	"attributes": {
+		"isPanelCollapsed": {
+			"type": "boolean"
+		},
+		"researchTitle": {
+			"type": "string"
+		},
+		"authors": {
+			"type": "string"
+		},
+		"authorImages": {
+			"type": "array"
+		},
+		"doiNumber": {
+			"type": "string"
+		},
+		"abstractLink": {
+			"type": "string"
+		},
+		"downloadLink": {
+			"type": "string"
+		},
+		"publishedDate": {
+			"type": "string"
+		}
+	},
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "research-publisher",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
